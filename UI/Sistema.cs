@@ -31,6 +31,7 @@ namespace UI
             try
             {
                 InitializeComponent();
+                this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
                 usuarioLogeadoTxt.Text = $"User: {SesionManager.GetUsername()}";
             }
             catch (Exception ex)

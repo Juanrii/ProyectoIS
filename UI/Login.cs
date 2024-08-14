@@ -61,6 +61,8 @@ namespace UI
             catch (Exception ex)
             {
                 MetroMessageBox.Show(this, ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                inputUsuario.Text = "";
+                inputPsw.Text = "";
                 return;
             }
         }

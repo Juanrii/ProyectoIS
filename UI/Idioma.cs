@@ -22,6 +22,7 @@ namespace UI
         public Idioma()
         {
             InitializeComponent();
+            this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
         }
 
         private void Idioma_Load(object sender, EventArgs e)

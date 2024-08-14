@@ -15,6 +15,9 @@ namespace UI
         public Permiso()
         {
             InitializeComponent();
+            this.Width = 2008; 
+            this.Height = 828;
+            this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
         }
 
         /*

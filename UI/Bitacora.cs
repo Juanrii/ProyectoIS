@@ -19,6 +19,7 @@ namespace UI
         public Bitacora()
         {
             InitializeComponent();
+            this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
         }
 
         private void Bitacora_Load(object sender, EventArgs e)

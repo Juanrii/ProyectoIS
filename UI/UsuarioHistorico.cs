@@ -32,6 +32,7 @@ namespace UI
         public UsuarioHistorico()
         {
             InitializeComponent();
+            this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
         }
 
         public void Actualizar()

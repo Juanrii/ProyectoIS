@@ -90,8 +90,8 @@
             this.dgvPermisos.EnableHeadersVisualStyles = false;
             this.dgvPermisos.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.dgvPermisos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.dgvPermisos.Location = new System.Drawing.Point(8, 16);
-            this.dgvPermisos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvPermisos.Location = new System.Drawing.Point(16, 31);
+            this.dgvPermisos.Margin = new System.Windows.Forms.Padding(4);
             this.dgvPermisos.MultiSelect = false;
             this.dgvPermisos.Name = "dgvPermisos";
             this.dgvPermisos.ReadOnly = true;
@@ -108,16 +108,15 @@
             this.dgvPermisos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvPermisos.RowTemplate.Height = 33;
             this.dgvPermisos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPermisos.Size = new System.Drawing.Size(346, 180);
+            this.dgvPermisos.Size = new System.Drawing.Size(692, 269);
             this.dgvPermisos.TabIndex = 9;
             // 
             // treeView1
             // 
-            this.treeView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.treeView1.Location = new System.Drawing.Point(799, 39);
-            this.treeView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.treeView1.Location = new System.Drawing.Point(1536, 86);
+            this.treeView1.Margin = new System.Windows.Forms.Padding(4);
             this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(220, 210);
+            this.treeView1.Size = new System.Drawing.Size(436, 712);
             this.treeView1.TabIndex = 10;
             // 
             // dgvFamilia
@@ -151,8 +150,8 @@
             this.dgvFamilia.EnableHeadersVisualStyles = false;
             this.dgvFamilia.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.dgvFamilia.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.dgvFamilia.Location = new System.Drawing.Point(6, 17);
-            this.dgvFamilia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvFamilia.Location = new System.Drawing.Point(12, 33);
+            this.dgvFamilia.Margin = new System.Windows.Forms.Padding(4);
             this.dgvFamilia.Name = "dgvFamilia";
             this.dgvFamilia.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -167,7 +166,7 @@
             this.dgvFamilia.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvFamilia.RowTemplate.Height = 33;
             this.dgvFamilia.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFamilia.Size = new System.Drawing.Size(356, 139);
+            this.dgvFamilia.Size = new System.Drawing.Size(712, 199);
             this.dgvFamilia.TabIndex = 14;
             this.dgvFamilia.SelectionChanged += new System.EventHandler(this.dgvFamilia_SelectionChanged);
             // 
@@ -180,12 +179,12 @@
             this.btnAgregarFamilia.Depth = 0;
             this.btnAgregarFamilia.HighEmphasis = true;
             this.btnAgregarFamilia.Icon = null;
-            this.btnAgregarFamilia.Location = new System.Drawing.Point(163, 170);
-            this.btnAgregarFamilia.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnAgregarFamilia.Location = new System.Drawing.Point(324, 250);
+            this.btnAgregarFamilia.Margin = new System.Windows.Forms.Padding(8, 12, 8, 12);
             this.btnAgregarFamilia.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnAgregarFamilia.Name = "btnAgregarFamilia";
             this.btnAgregarFamilia.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnAgregarFamilia.Size = new System.Drawing.Size(56, 26);
+            this.btnAgregarFamilia.Size = new System.Drawing.Size(112, 50);
             this.btnAgregarFamilia.TabIndex = 13;
             this.btnAgregarFamilia.Tag = "btnAgregarFamilia";
             this.btnAgregarFamilia.Text = "Agregar Familia";
@@ -202,13 +201,13 @@
             this.txtFamilia.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txtFamilia.Hint = "Familia";
             this.txtFamilia.LeadingIcon = null;
-            this.txtFamilia.Location = new System.Drawing.Point(10, 170);
-            this.txtFamilia.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtFamilia.Location = new System.Drawing.Point(18, 250);
+            this.txtFamilia.Margin = new System.Windows.Forms.Padding(4);
             this.txtFamilia.MaxLength = 50;
             this.txtFamilia.MouseState = MaterialSkin.MouseState.OUT;
             this.txtFamilia.Multiline = false;
             this.txtFamilia.Name = "txtFamilia";
-            this.txtFamilia.Size = new System.Drawing.Size(147, 50);
+            this.txtFamilia.Size = new System.Drawing.Size(294, 50);
             this.txtFamilia.TabIndex = 12;
             this.txtFamilia.Tag = "registroFamilia";
             this.txtFamilia.Text = "";
@@ -221,11 +220,11 @@
             this.groupBox1.Controls.Add(this.dgvFamilia);
             this.groupBox1.Controls.Add(this.txtFamilia);
             this.groupBox1.Controls.Add(this.btnAgregarFamilia);
-            this.groupBox1.Location = new System.Drawing.Point(392, 45);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Location = new System.Drawing.Point(784, 87);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(367, 204);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(734, 311);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Tag = "groupBoxFamilias";
@@ -240,12 +239,12 @@
             this.btnEliminarFamilia.Depth = 0;
             this.btnEliminarFamilia.HighEmphasis = true;
             this.btnEliminarFamilia.Icon = null;
-            this.btnEliminarFamilia.Location = new System.Drawing.Point(296, 170);
-            this.btnEliminarFamilia.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnEliminarFamilia.Location = new System.Drawing.Point(590, 250);
+            this.btnEliminarFamilia.Margin = new System.Windows.Forms.Padding(8, 12, 8, 12);
             this.btnEliminarFamilia.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnEliminarFamilia.Name = "btnEliminarFamilia";
             this.btnEliminarFamilia.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnEliminarFamilia.Size = new System.Drawing.Size(66, 26);
+            this.btnEliminarFamilia.Size = new System.Drawing.Size(132, 50);
             this.btnEliminarFamilia.TabIndex = 16;
             this.btnEliminarFamilia.Tag = "btnEliminarFamilia";
             this.btnEliminarFamilia.Text = "Eliminar Familia";
@@ -263,12 +262,12 @@
             this.btnAgregarPermiso.Depth = 0;
             this.btnAgregarPermiso.HighEmphasis = true;
             this.btnAgregarPermiso.Icon = null;
-            this.btnAgregarPermiso.Location = new System.Drawing.Point(226, 170);
-            this.btnAgregarPermiso.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnAgregarPermiso.Location = new System.Drawing.Point(452, 250);
+            this.btnAgregarPermiso.Margin = new System.Windows.Forms.Padding(8, 12, 8, 12);
             this.btnAgregarPermiso.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnAgregarPermiso.Name = "btnAgregarPermiso";
             this.btnAgregarPermiso.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnAgregarPermiso.Size = new System.Drawing.Size(61, 26);
+            this.btnAgregarPermiso.Size = new System.Drawing.Size(122, 50);
             this.btnAgregarPermiso.TabIndex = 15;
             this.btnAgregarPermiso.Tag = "btnAgregarPermiso";
             this.btnAgregarPermiso.Text = "Agregar Permiso";
@@ -280,11 +279,11 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.dgvPermisos);
-            this.groupBox2.Location = new System.Drawing.Point(20, 45);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Location = new System.Drawing.Point(40, 87);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Size = new System.Drawing.Size(364, 204);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(728, 311);
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             this.groupBox2.Tag = "groupBoxPermisos";
@@ -295,11 +294,11 @@
             this.groupBox3.Controls.Add(this.btnEliminarPermisos);
             this.groupBox3.Controls.Add(this.btnAsignarPermisoUsuario);
             this.groupBox3.Controls.Add(this.dgvUsuarios);
-            this.groupBox3.Location = new System.Drawing.Point(28, 260);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Location = new System.Drawing.Point(40, 406);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox3.Size = new System.Drawing.Size(731, 204);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Size = new System.Drawing.Size(934, 392);
             this.groupBox3.TabIndex = 18;
             this.groupBox3.TabStop = false;
             this.groupBox3.Tag = "groupBoxAsignarPermisos";
@@ -314,12 +313,12 @@
             this.btnEliminarPermisos.Depth = 0;
             this.btnEliminarPermisos.HighEmphasis = true;
             this.btnEliminarPermisos.Icon = null;
-            this.btnEliminarPermisos.Location = new System.Drawing.Point(538, 167);
-            this.btnEliminarPermisos.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnEliminarPermisos.Location = new System.Drawing.Point(546, 321);
+            this.btnEliminarPermisos.Margin = new System.Windows.Forms.Padding(8, 12, 8, 12);
             this.btnEliminarPermisos.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnEliminarPermisos.Name = "btnEliminarPermisos";
             this.btnEliminarPermisos.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnEliminarPermisos.Size = new System.Drawing.Size(188, 29);
+            this.btnEliminarPermisos.Size = new System.Drawing.Size(376, 56);
             this.btnEliminarPermisos.TabIndex = 17;
             this.btnEliminarPermisos.Tag = "btnEliminarPermisosAsginados";
             this.btnEliminarPermisos.Text = "Eliminar Permisos Asginados";
@@ -337,12 +336,12 @@
             this.btnAsignarPermisoUsuario.Depth = 0;
             this.btnAsignarPermisoUsuario.HighEmphasis = true;
             this.btnAsignarPermisoUsuario.Icon = null;
-            this.btnAsignarPermisoUsuario.Location = new System.Drawing.Point(8, 167);
-            this.btnAsignarPermisoUsuario.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btnAsignarPermisoUsuario.Location = new System.Drawing.Point(16, 321);
+            this.btnAsignarPermisoUsuario.Margin = new System.Windows.Forms.Padding(8, 12, 8, 12);
             this.btnAsignarPermisoUsuario.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnAsignarPermisoUsuario.Name = "btnAsignarPermisoUsuario";
             this.btnAsignarPermisoUsuario.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.btnAsignarPermisoUsuario.Size = new System.Drawing.Size(188, 29);
+            this.btnAsignarPermisoUsuario.Size = new System.Drawing.Size(376, 56);
             this.btnAsignarPermisoUsuario.TabIndex = 16;
             this.btnAsignarPermisoUsuario.Tag = "btnAsignarPermiso";
             this.btnAsignarPermisoUsuario.Text = "Asignar Permiso";
@@ -383,8 +382,8 @@
             this.dgvUsuarios.EnableHeadersVisualStyles = false;
             this.dgvUsuarios.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.dgvUsuarios.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.dgvUsuarios.Location = new System.Drawing.Point(8, 16);
-            this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvUsuarios.Location = new System.Drawing.Point(16, 31);
+            this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.dgvUsuarios.MultiSelect = false;
             this.dgvUsuarios.Name = "dgvUsuarios";
             this.dgvUsuarios.ReadOnly = true;
@@ -401,32 +400,32 @@
             this.dgvUsuarios.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvUsuarios.RowTemplate.Height = 33;
             this.dgvUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvUsuarios.Size = new System.Drawing.Size(717, 139);
+            this.dgvUsuarios.Size = new System.Drawing.Size(910, 267);
             this.dgvUsuarios.TabIndex = 9;
             this.dgvUsuarios.SelectionChanged += new System.EventHandler(this.dgvUsuarios_SelectionChanged);
             // 
             // treeViewPermUsuario
             // 
-            this.treeViewPermUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.treeViewPermUsuario.Location = new System.Drawing.Point(799, 276);
-            this.treeViewPermUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.treeViewPermUsuario.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.treeViewPermUsuario.Location = new System.Drawing.Point(982, 420);
+            this.treeViewPermUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.treeViewPermUsuario.Name = "treeViewPermUsuario";
-            this.treeViewPermUsuario.Size = new System.Drawing.Size(220, 148);
+            this.treeViewPermUsuario.Size = new System.Drawing.Size(536, 378);
             this.treeViewPermUsuario.TabIndex = 19;
             // 
             // Permiso
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1031, 481);
+            this.ClientSize = new System.Drawing.Size(2008, 960);
             this.Controls.Add(this.treeViewPermUsuario);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.treeView1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Permiso";
-            this.Padding = new System.Windows.Forms.Padding(10, 31, 10, 10);
+            this.Padding = new System.Windows.Forms.Padding(20, 115, 20, 19);
             this.Tag = "formGestionPermisos";
             this.Text = "Gestión de Permisos";
             this.Load += new System.EventHandler(this.Permiso_Load);

@@ -20,6 +20,7 @@ namespace UI
         public Gestion()
         {
             InitializeComponent();
+            this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
         }
 
         private void ActualizarDgv()

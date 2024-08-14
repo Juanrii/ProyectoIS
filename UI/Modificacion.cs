@@ -22,6 +22,7 @@ namespace UI
         public Modificacion(int id)
         {
             InitializeComponent();
+            this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
             this.idUsuario = id;
         }
 

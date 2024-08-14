@@ -18,6 +18,7 @@ namespace UI
         public Registro()
         {
             InitializeComponent();
+            this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
         }
 
         private BEUsuario ObtenerDatos()
